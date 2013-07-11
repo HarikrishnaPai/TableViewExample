@@ -18,6 +18,10 @@
 		53BBF471174E3EC6005E3680 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BBF470174E3EC6005E3680 /* Default-568h@2x.png */; };
 		53BBF474174E3EC6005E3680 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BBF473174E3EC6005E3680 /* ViewController.m */; };
 		53BBF477174E3EC6005E3680 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53BBF475174E3EC6005E3680 /* ViewController.xib */; };
+		53BBF47E174E455E005E3680 /* exercise.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53BBF47D174E455E005E3680 /* exercise.plist */; };
+		53BBF480174E4E02005E3680 /* cellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BBF47F174E4E02005E3680 /* cellimage.png */; };
+		53BBF484174E50AB005E3680 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BBF482174E50AB005E3680 /* SecondViewController.m */; };
+		53BBF485174E50AB005E3680 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53BBF483174E50AB005E3680 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		53BBF472174E3EC6005E3680 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		53BBF473174E3EC6005E3680 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		53BBF476174E3EC6005E3680 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		53BBF47D174E455E005E3680 /* exercise.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exercise.plist; sourceTree = "<group>"; };
+		53BBF47F174E4E02005E3680 /* cellimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellimage.png; sourceTree = "<group>"; };
+		53BBF481174E50AB005E3680 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		53BBF482174E50AB005E3680 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		53BBF483174E50AB005E3680 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,11 @@
 				53BBF472174E3EC6005E3680 /* ViewController.h */,
 				53BBF473174E3EC6005E3680 /* ViewController.m */,
 				53BBF475174E3EC6005E3680 /* ViewController.xib */,
+				53BBF481174E50AB005E3680 /* SecondViewController.h */,
+				53BBF482174E50AB005E3680 /* SecondViewController.m */,
+				53BBF483174E50AB005E3680 /* SecondViewController.xib */,
+				53BBF47D174E455E005E3680 /* exercise.plist */,
+				53BBF47F174E4E02005E3680 /* cellimage.png */,
 				53BBF461174E3EC6005E3680 /* Supporting Files */,
 			);
 			path = TableViewExample;
@@ -163,6 +177,9 @@
 				53BBF46F174E3EC6005E3680 /* Default@2x.png in Resources */,
 				53BBF471174E3EC6005E3680 /* Default-568h@2x.png in Resources */,
 				53BBF477174E3EC6005E3680 /* ViewController.xib in Resources */,
+				53BBF47E174E455E005E3680 /* exercise.plist in Resources */,
+				53BBF480174E4E02005E3680 /* cellimage.png in Resources */,
+				53BBF485174E50AB005E3680 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				53BBF467174E3EC6005E3680 /* main.m in Sources */,
 				53BBF46B174E3EC6005E3680 /* AppDelegate.m in Sources */,
 				53BBF474174E3EC6005E3680 /* ViewController.m in Sources */,
+				53BBF484174E50AB005E3680 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +231,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -228,6 +247,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -244,7 +265,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -252,6 +274,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -260,10 +284,15 @@
 		53BBF47B174E3EC6005E3680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
 				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,10 +300,15 @@
 		53BBF47C174E3EC6005E3680 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
 				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +332,7 @@
 				53BBF47C174E3EC6005E3680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
