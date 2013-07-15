@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53BBF457174E3EC6005E3680 /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BBF457174E3EC6005E3680 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BBF45A174E3EC6005E3680 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		53BBF45C174E3EC6005E3680 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53BBF45E174E3EC6005E3680 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,7 +74,7 @@
 		53BBF458174E3EC6005E3680 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53BBF457174E3EC6005E3680 /* TableViewExample.app */,
+				53BBF457174E3EC6005E3680 /* TableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			);
 			name = TableViewExample;
 			productName = TableViewExample;
-			productReference = 53BBF457174E3EC6005E3680 /* TableViewExample.app */;
+			productReference = 53BBF457174E3EC6005E3680 /* TableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				SDKROOT = iphoneos;
@@ -290,7 +290,7 @@
 				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
 				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableView;
 				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				WRAPPER_EXTENSION = app;
@@ -306,7 +306,7 @@
 				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
 				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableView;
 				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
 				WRAPPER_EXTENSION = app;
