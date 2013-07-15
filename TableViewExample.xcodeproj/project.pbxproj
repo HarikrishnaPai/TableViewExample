@@ -284,15 +284,15 @@
 		53BBF47B174E3EC6005E3680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
 				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = TableView;
-				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,15 +300,15 @@
 		53BBF47C174E3EC6005E3680 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jayadev Madhusoodanan Vasantham (9GJFR7FH97)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewExample/TableViewExample-Prefix.pch";
 				INFOPLIST_FILE = "TableViewExample/TableViewExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = TableView;
-				PROVISIONING_PROFILE = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A55DEE57-CD4E-45D1-9018-94EA7DC866AB";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
